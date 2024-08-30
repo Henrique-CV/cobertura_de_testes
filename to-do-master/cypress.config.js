@@ -9,6 +9,7 @@ module.exports = defineConfig({
       require("@cypress/code-coverage/task")(on, config);
       return config;
     },
+    
     baseUrl: "http://localhost:3000/",
   },
 });
